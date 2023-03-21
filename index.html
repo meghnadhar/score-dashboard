@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+  
+  <title>Results Dashboard</title>
+  <link rel="stylesheet" href="./design/dasboard-style.css">
+</head>
+<body onload="loadData()">
+    <div class = 'result-container'> 
+      <div id='result-tab'>
+        <h2 id='score-title'>Your Result</h2>
+        <div id='circle'>
+          <p id="inside-circle">
+          <span id="marks"></span>
+          <span id="total-marks">of 100</span>
+          </p>
+        </div>
+        <p id='review-para'>
+        <span id="great">Great</span>
+        <span id="percentage-para">You scored higher than 65% of the people who have taken this tests.</span>
+        </p>
+      </div>
+      <div id='summary-tab'>
+        <h2 id='summary'>Summary</h2>
+        <div id="subjects"></div>
+        <button id='continue-btn'>Continue</button>
+      </div>
+    </div>
+    <script src="./design/dashboard.js"></script>
+</body>
+</html>

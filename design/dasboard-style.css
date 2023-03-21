@@ -1,0 +1,101 @@
+
+
+body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100vh;
+        font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.result-container{
+    display: inline-flex;
+    justify-content: center;
+    height: 500px;
+    width: 600px;
+    border-radius: 5%;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 5px 50px hsl(241, 100%, 95%);
+}
+
+#result-tab{
+    justify-content: center;
+    height: 500px;
+    width: 300px;
+    border-radius: 5%;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+#score-title{
+    text-align: center;
+    color: hsl(0, 0%, 100%, 0.7);
+    margin-top: 50px;
+    margin-bottom: 29px;
+}
+#circle{
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: linear-gradient( hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    padding:10px;
+    text-align: center;
+}
+#inside-circle{
+    margin-top: 50px;
+    line-height: 1;
+}
+#review-para{
+margin-top: 22px;
+}
+#marks{
+    font-size: 70px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+#total-marks{
+    font-size: 20px;
+    display: block;
+    color: hsl(0, 0%, 100%, 0.7);
+}
+#great{
+    color: hsl(0, 0%, 100%);
+    margin-left: 115px;
+    font-size: 25px;
+}
+#percentage-para{
+    color: hsl(0, 0%, 100%, 0.7);
+    padding: 10px 40px;
+    display: block;
+}
+#summary-tab{
+    justify-content: center;
+    height: 500px;
+    width: 300px;
+    border-radius: 5%;
+    background-color: hsl(0, 0%, 100%);
+}
+#summary{
+    color:hsl(224, 30%, 27%);
+    margin: 50px 40px 20px;
+}
+#dynamic-category-id{
+    padding: 15px;
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#continue-btn{
+    padding: 15px;
+    margin: 37px 40px 10px 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    border: none;
+    width: 72%;
+    font-size: 18px;
+}
+
+    
