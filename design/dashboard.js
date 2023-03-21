@@ -1,5 +1,5 @@
 
-
+//This file contains functions for index file//
  function loadData(){
     var data = [
         {
